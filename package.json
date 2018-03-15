@@ -7,10 +7,10 @@
     "url": "https://github.com/pambda/pambda-s3-fetch/issues"
   },
   "dependencies": {
-    "caseless-get": "0.0.1"
+    "caseless-get": "0.0.3"
   },
   "devDependencies": {
-    "tape": "^4.7.0"
+    "tape": "^4.9.0"
   },
   "homepage": "https://github.com/pambda/pambda-s3-fetch",
   "keywords": [
