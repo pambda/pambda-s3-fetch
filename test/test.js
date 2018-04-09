@@ -8,7 +8,9 @@ test('test', t => {
     s3Uri: 's3://bucket/key',
   });
 
-  const lambda = pambda();
+  const lambda = pambda((event, context, callback) => {
+    callback(null);
+  });
 
   t.equal(typeof(lambda), 'function');
 });
