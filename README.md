@@ -1,11 +1,11 @@
 # pambda-s3-fetch
 
-Pambda to render contents on S3 bucket.
+[Pambda](https://github.com/pambda/pambda) to render contents on S3 bucket.
 
 ## Installation
 
 ```
-npm i pambda-s3-fetch -S
+npm i pambda-s3-fetch
 ```
 
 ## Usage
@@ -18,6 +18,7 @@ import { s3Fetch } from 'pambda-s3-fetch';
 export const handler = createLambda(
   compose(
     binarySupport(['image/*']),
+
     s3Fetch({
       basePath: '/',
       s3Uri: 's3://bucket/base',
