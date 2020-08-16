@@ -1,6 +1,6 @@
 {
   "name": "pambda-s3-fetch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pambda to render contents on S3 bucket",
   "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
   "bugs": {
